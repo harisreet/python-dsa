@@ -1,4 +1,4 @@
-# 📘 Python DSA Summary – List, Set, and Bit Manipulation
+# 📘 Python DSA Summary – List, Array, Set, and Bit Manipulation
 
 ---
 
@@ -12,6 +12,21 @@
 | **Allows Duplicates** | Yes → `[1, 2, 2]` is valid                                         |
 | **Common Methods**    | `append()`, `pop()`, `insert()`, `remove()`, `sort()`, `reverse()` |
 | **Use Case**          | When order matters or duplicates are allowed                       |
+
+---
+
+## 📦 Array
+
+| Feature               | Description                                                                 |
+| --------------------- | --------------------------------------------------------------------------- |
+| **Type**              | Ordered, fixed-type, more memory-efficient than list                        |
+| **Syntax**            | `from array import array`<br>`arr = array('i', [1, 2, 3])`                  |
+| **Access by Index**   | Yes → `arr[0]` returns `1`                                                  |
+| **Allows Duplicates** | Yes                                                                         |
+| **Common Methods**    | `append()`, `insert()`, `remove()`, `pop()`, `reverse()`, `buffer_info()`   |
+| **Use Case**          | When you need numeric-only, fixed-type, space-efficient sequences           |
+
+> `array('i', [...])` → `'i'` stands for integer. Other types: `'f'` (float), `'d'` (double), `'u'` (unicode char), etc.
 
 ---
 
